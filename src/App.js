@@ -11,10 +11,8 @@ export default function App() {
 
   return (
     <div className="main">
-      {/* <p className="value">{rolledValue}</p> */}
       <button className="die" onClick={roll}>
         <Dots roll={rolledValue} />
-        {/* {Dots({ roll: rolledValue })} */}
       </button>
     </div>
   );
