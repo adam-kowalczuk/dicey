@@ -5,7 +5,7 @@ import Four from "./Four";
 import Five from "./Five";
 import Six from "./Six";
 
-export default function useDots({ roll }) {
+export default function Dots({ roll }) {
   if (roll === 1) return <One />;
   if (roll === 2) return <Two />;
   if (roll === 3) return <Three />;
