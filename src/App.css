@@ -8,8 +8,17 @@
   background-color: black;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.title {
+  color: rgb(222, 222, 222);
+  font-family: "Shrikhand", cursive;
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
 }
 
 .die {
@@ -50,4 +59,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.twenty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.twenty-img {
+  height: 225px;
+  width: 225px;
+}
+
+.twenty-roll {
+  font-size: 3rem;
+  color: rgb(222, 222, 222);
+  position: absolute;
 }
