@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .title {
@@ -18,7 +18,8 @@
   font-family: "Shrikhand", cursive;
   font-size: 5rem;
   margin-top: 2rem;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
+  cursor: pointer;
 }
 
 .six {
@@ -28,11 +29,12 @@
   align-items: center;
   height: 200px;
   width: 200px;
-  border: 5px solid rgb(222, 222, 222);
+  border: 7px solid rgb(222, 222, 222);
   border-radius: 10px;
   background: none;
   color: rgb(222, 222, 222);
   padding: 10px;
+  cursor: pointer;
 }
 
 .dots {
@@ -66,6 +68,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .twenty-img {
@@ -75,6 +78,51 @@
 
 .twenty-roll {
   font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(222, 222, 222);
   position: absolute;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.six-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1.5px solid rgb(222, 222, 222);
+  border-radius: 5px;
+  background: none;
+  color: rgb(222, 222, 222);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dots-small {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background-color: rgb(222, 222, 222);
+}
+
+.left-right-small {
+  width: calc(50px - 10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twenty-small {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
